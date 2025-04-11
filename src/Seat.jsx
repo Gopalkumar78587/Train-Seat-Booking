@@ -5,9 +5,10 @@ export default function Seat({
             onClick={onClick}
             disabled={isBooked}
             style={{
-              backgroundColor: isBooked ? 'green' : isSelected ? 'red' : 'white',
+              backgroundColor: isBooked ? 'green' : isSelected ? 'yellow' : 'white',
               margin: '5px',
-              width: '40px'
+              width: '40px',
+              color:"black",
             }}
           >
             {number + 1}
